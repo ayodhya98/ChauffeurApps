@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ChauffeurApp.API.props" />
+</Project>

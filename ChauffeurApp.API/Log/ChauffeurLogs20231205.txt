@@ -1,0 +1,100 @@
+2023-12-05 10:47:01.909 +05:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-12-05 10:47:02.934 +05:30 [DBG] The index {'UserId'} was not created on entity type 'IdentityUserRole<long>' as the properties are already covered by the index {'UserId', 'RoleId'}.
+2023-12-05 10:47:02.935 +05:30 [DBG] The index {'UserId'} was not created on entity type 'IdentityUserToken<long>' as the properties are already covered by the index {'UserId', 'LoginProvider', 'Name'}.
+2023-12-05 10:47:03.432 +05:30 [INF] Entity Framework Core 6.0.22 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.22' with options: None
+2023-12-05 10:47:03.618 +05:30 [DBG] Compiling query expression: 
+'DbSet<ApplicationUserRole>()
+    .FirstOrDefault(r => r.NormalizedName == __normalizedName_0)'
+2023-12-05 10:47:04.022 +05:30 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<ApplicationUserRole>(
+    asyncEnumerable: new SingleQueryingEnumerable<ApplicationUserRole>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.SelectExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: ApplicationUserRole.Id (long) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: ApplicationUserRole.ConcurrencyStamp (string) Concurrency, 1], [Property: ApplicationUserRole.Name (string) MaxLength(256), 2], [Property: ApplicationUserRole.NormalizedName (string) Index MaxLength(256), 3] }
+            SELECT TOP(1) a.Id, a.ConcurrencyStamp, a.Name, a.NormalizedName
+            FROM AspNetRoles AS a
+            WHERE a.NormalizedName == @__normalizedName_0), 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, ApplicationUserRole>, 
+        ChauffeurApp.DataAccess.Persistence.AppDbContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2023-12-05 10:47:04.122 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-12-05 10:47:04.270 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (150ms).
+2023-12-05 10:47:04.357 +05:30 [DBG] Opening connection to database 'chauffeurApp_Mexxarr' on server 'AYODHYA\SQLEXPRESS'.
+2023-12-05 10:47:04.934 +05:30 [DBG] Opened connection to database 'chauffeurApp_Mexxarr' on server 'AYODHYA\SQLEXPRESS'.
+2023-12-05 10:47:04.956 +05:30 [DBG] Executing DbCommand [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2023-12-05 10:47:05.096 +05:30 [INF] Executed DbCommand (145ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2023-12-05 10:47:05.179 +05:30 [DBG] Context 'AppDbContext' started tracking 'ApplicationUserRole' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-12-05 10:47:05.225 +05:30 [DBG] A data reader was disposed.
+2023-12-05 10:47:05.236 +05:30 [DBG] Closing connection to database 'chauffeurApp_Mexxarr' on server 'AYODHYA\SQLEXPRESS'.
+2023-12-05 10:47:05.249 +05:30 [DBG] Closed connection to database 'chauffeurApp_Mexxarr' on server 'AYODHYA\SQLEXPRESS'.
+2023-12-05 10:47:05.255 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-12-05 10:47:05.255 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-12-05 10:47:05.255 +05:30 [DBG] Opening connection to database 'chauffeurApp_Mexxarr' on server 'AYODHYA\SQLEXPRESS'.
+2023-12-05 10:47:05.257 +05:30 [DBG] Opened connection to database 'chauffeurApp_Mexxarr' on server 'AYODHYA\SQLEXPRESS'.
+2023-12-05 10:47:05.257 +05:30 [DBG] Executing DbCommand [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2023-12-05 10:47:05.261 +05:30 [INF] Executed DbCommand (4ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2023-12-05 10:47:05.263 +05:30 [DBG] Context 'AppDbContext' started tracking 'ApplicationUserRole' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-12-05 10:47:05.268 +05:30 [DBG] A data reader was disposed.
+2023-12-05 10:47:05.268 +05:30 [DBG] Closing connection to database 'chauffeurApp_Mexxarr' on server 'AYODHYA\SQLEXPRESS'.
+2023-12-05 10:47:05.268 +05:30 [DBG] Closed connection to database 'chauffeurApp_Mexxarr' on server 'AYODHYA\SQLEXPRESS'.
+2023-12-05 10:47:05.268 +05:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-12-05 10:47:05.272 +05:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-12-05 10:47:05.272 +05:30 [DBG] Opening connection to database 'chauffeurApp_Mexxarr' on server 'AYODHYA\SQLEXPRESS'.
+2023-12-05 10:47:05.273 +05:30 [DBG] Opened connection to database 'chauffeurApp_Mexxarr' on server 'AYODHYA\SQLEXPRESS'.
+2023-12-05 10:47:05.275 +05:30 [DBG] Executing DbCommand [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2023-12-05 10:47:05.276 +05:30 [INF] Executed DbCommand (3ms) [Parameters=[@__normalizedName_0='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[Name], [a].[NormalizedName]
+FROM [AspNetRoles] AS [a]
+WHERE [a].[NormalizedName] = @__normalizedName_0
+2023-12-05 10:47:05.277 +05:30 [DBG] Context 'AppDbContext' started tracking 'ApplicationUserRole' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-12-05 10:47:05.277 +05:30 [DBG] A data reader was disposed.
+2023-12-05 10:47:05.277 +05:30 [DBG] Closing connection to database 'chauffeurApp_Mexxarr' on server 'AYODHYA\SQLEXPRESS'.
+2023-12-05 10:47:05.277 +05:30 [DBG] Closed connection to database 'chauffeurApp_Mexxarr' on server 'AYODHYA\SQLEXPRESS'.
+2023-12-05 10:47:05.280 +05:30 [DBG] 'AppDbContext' disposed.
+2023-12-05 10:47:05.432 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-12-05 10:47:05.503 +05:30 [DBG] Hosting starting
+2023-12-05 10:47:05.584 +05:30 [INF] User profile is available. Using 'C:\Users\NM\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-05 10:47:05.592 +05:30 [DBG] Reading data from file 'C:\Users\NM\AppData\Local\ASP.NET\DataProtection-Keys\key-5dbbce15-1efb-469f-a24c-06b3260aefee.xml'.
+2023-12-05 10:47:05.614 +05:30 [DBG] Reading data from file 'C:\Users\NM\AppData\Local\ASP.NET\DataProtection-Keys\key-e07861ef-6e1a-4bc5-bf37-dd8251ca4050.xml'.
+2023-12-05 10:47:05.643 +05:30 [DBG] Found key {5dbbce15-1efb-469f-a24c-06b3260aefee}.
+2023-12-05 10:47:05.656 +05:30 [DBG] Found key {e07861ef-6e1a-4bc5-bf37-dd8251ca4050}.
+2023-12-05 10:47:05.671 +05:30 [DBG] Considering key {5dbbce15-1efb-469f-a24c-06b3260aefee} with expiration date 2024-01-22 17:14:53Z as default key.
+2023-12-05 10:47:05.674 +05:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-12-05 10:47:05.674 +05:30 [DBG] Decrypting secret element using Windows DPAPI.
+2023-12-05 10:47:05.676 +05:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-12-05 10:47:05.678 +05:30 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2023-12-05 10:47:05.681 +05:30 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2023-12-05 10:47:05.685 +05:30 [DBG] Using key {5dbbce15-1efb-469f-a24c-06b3260aefee} as the default key.
+2023-12-05 10:47:05.685 +05:30 [DBG] Key ring with default key {5dbbce15-1efb-469f-a24c-06b3260aefee} was loaded during application startup.
+2023-12-05 10:47:05.807 +05:30 [DBG] Loaded hosting startup assembly ChauffeurApp.API
+2023-12-05 10:47:05.807 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-12-05 10:47:05.807 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-12-05 10:47:05.812 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-05 10:47:05.812 +05:30 [INF] Hosting environment: Development
+2023-12-05 10:47:05.812 +05:30 [INF] Content root path: C:\Users\NM\Desktop\New folder (5)\chauffeurApp-main\ChauffeurApp.API\
+2023-12-05 10:47:05.812 +05:30 [DBG] Hosting started
+2023-12-05 10:47:05.865 +05:30 [DBG] Connection ID "18374686501951766529" disconnecting.
+2023-12-05 10:47:05.880 +05:30 [INF] Request starting HTTP/2 GET https://localhost:44307/swagger/index.html - -
+2023-12-05 10:47:05.926 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-12-05 10:47:05.964 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-12-05 10:47:05.964 +05:30 [DBG] Request did not match any endpoints

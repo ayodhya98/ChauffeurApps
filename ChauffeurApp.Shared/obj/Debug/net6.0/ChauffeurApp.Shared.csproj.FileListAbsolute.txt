@@ -1,0 +1,28 @@
+C:\Hakeema\ChauffeurApp\ChauffeurApp.Shared\bin\Debug\net6.0\ChauffeurApp.Shared.deps.json
+C:\Hakeema\ChauffeurApp\ChauffeurApp.Shared\bin\Debug\net6.0\ChauffeurApp.Shared.runtimeconfig.json
+C:\Hakeema\ChauffeurApp\ChauffeurApp.Shared\bin\Debug\net6.0\ChauffeurApp.Shared.dll
+C:\Hakeema\ChauffeurApp\ChauffeurApp.Shared\bin\Debug\net6.0\ChauffeurApp.Shared.pdb
+C:\Hakeema\ChauffeurApp\ChauffeurApp.Shared\obj\Debug\net6.0\ChauffeurApp.Shared.csproj.AssemblyReference.cache
+C:\Hakeema\ChauffeurApp\ChauffeurApp.Shared\obj\Debug\net6.0\ChauffeurApp.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Hakeema\ChauffeurApp\ChauffeurApp.Shared\obj\Debug\net6.0\ChauffeurApp.Shared.AssemblyInfoInputs.cache
+C:\Hakeema\ChauffeurApp\ChauffeurApp.Shared\obj\Debug\net6.0\ChauffeurApp.Shared.AssemblyInfo.cs
+C:\Hakeema\ChauffeurApp\ChauffeurApp.Shared\obj\Debug\net6.0\ChauffeurApp.Shared.csproj.CoreCompileInputs.cache
+C:\Hakeema\ChauffeurApp\ChauffeurApp.Shared\obj\Debug\net6.0\ChauffeurApp.Shared.dll
+C:\Hakeema\ChauffeurApp\ChauffeurApp.Shared\obj\Debug\net6.0\refint\ChauffeurApp.Shared.dll
+C:\Hakeema\ChauffeurApp\ChauffeurApp.Shared\obj\Debug\net6.0\ChauffeurApp.Shared.pdb
+C:\Hakeema\ChauffeurApp\ChauffeurApp.Shared\obj\Debug\net6.0\ChauffeurApp.Shared.genruntimeconfig.cache
+C:\Hakeema\ChauffeurApp\ChauffeurApp.Shared\obj\Debug\net6.0\ref\ChauffeurApp.Shared.dll
+C:\Users\NM\Desktop\New folder (5)\chauffeurApp-main\ChauffeurApp.Shared\bin\Debug\net6.0\ChauffeurApp.Shared.deps.json
+C:\Users\NM\Desktop\New folder (5)\chauffeurApp-main\ChauffeurApp.Shared\bin\Debug\net6.0\ChauffeurApp.Shared.runtimeconfig.json
+C:\Users\NM\Desktop\New folder (5)\chauffeurApp-main\ChauffeurApp.Shared\bin\Debug\net6.0\ChauffeurApp.Shared.dll
+C:\Users\NM\Desktop\New folder (5)\chauffeurApp-main\ChauffeurApp.Shared\bin\Debug\net6.0\ChauffeurApp.Shared.pdb
+C:\Users\NM\Desktop\New folder (5)\chauffeurApp-main\ChauffeurApp.Shared\obj\Debug\net6.0\ChauffeurApp.Shared.csproj.AssemblyReference.cache
+C:\Users\NM\Desktop\New folder (5)\chauffeurApp-main\ChauffeurApp.Shared\obj\Debug\net6.0\ChauffeurApp.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NM\Desktop\New folder (5)\chauffeurApp-main\ChauffeurApp.Shared\obj\Debug\net6.0\ChauffeurApp.Shared.AssemblyInfoInputs.cache
+C:\Users\NM\Desktop\New folder (5)\chauffeurApp-main\ChauffeurApp.Shared\obj\Debug\net6.0\ChauffeurApp.Shared.AssemblyInfo.cs
+C:\Users\NM\Desktop\New folder (5)\chauffeurApp-main\ChauffeurApp.Shared\obj\Debug\net6.0\ChauffeurApp.Shared.csproj.CoreCompileInputs.cache
+C:\Users\NM\Desktop\New folder (5)\chauffeurApp-main\ChauffeurApp.Shared\obj\Debug\net6.0\ChauffeurApp.Shared.dll
+C:\Users\NM\Desktop\New folder (5)\chauffeurApp-main\ChauffeurApp.Shared\obj\Debug\net6.0\refint\ChauffeurApp.Shared.dll
+C:\Users\NM\Desktop\New folder (5)\chauffeurApp-main\ChauffeurApp.Shared\obj\Debug\net6.0\ChauffeurApp.Shared.pdb
+C:\Users\NM\Desktop\New folder (5)\chauffeurApp-main\ChauffeurApp.Shared\obj\Debug\net6.0\ChauffeurApp.Shared.genruntimeconfig.cache
+C:\Users\NM\Desktop\New folder (5)\chauffeurApp-main\ChauffeurApp.Shared\obj\Debug\net6.0\ref\ChauffeurApp.Shared.dll

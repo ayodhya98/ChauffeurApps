@@ -1,0 +1,28 @@
+C:\Hakeema\ChauffeurApp\ChauffeurApp.Core\bin\Debug\net6.0\ChauffeurApp.Core.deps.json
+C:\Hakeema\ChauffeurApp\ChauffeurApp.Core\bin\Debug\net6.0\ChauffeurApp.Core.runtimeconfig.json
+C:\Hakeema\ChauffeurApp\ChauffeurApp.Core\bin\Debug\net6.0\ChauffeurApp.Core.dll
+C:\Hakeema\ChauffeurApp\ChauffeurApp.Core\bin\Debug\net6.0\ChauffeurApp.Core.pdb
+C:\Hakeema\ChauffeurApp\ChauffeurApp.Core\obj\Debug\net6.0\ChauffeurApp.Core.csproj.AssemblyReference.cache
+C:\Hakeema\ChauffeurApp\ChauffeurApp.Core\obj\Debug\net6.0\ChauffeurApp.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Hakeema\ChauffeurApp\ChauffeurApp.Core\obj\Debug\net6.0\ChauffeurApp.Core.AssemblyInfoInputs.cache
+C:\Hakeema\ChauffeurApp\ChauffeurApp.Core\obj\Debug\net6.0\ChauffeurApp.Core.AssemblyInfo.cs
+C:\Hakeema\ChauffeurApp\ChauffeurApp.Core\obj\Debug\net6.0\ChauffeurApp.Core.csproj.CoreCompileInputs.cache
+C:\Hakeema\ChauffeurApp\ChauffeurApp.Core\obj\Debug\net6.0\ChauffeurApp.Core.dll
+C:\Hakeema\ChauffeurApp\ChauffeurApp.Core\obj\Debug\net6.0\refint\ChauffeurApp.Core.dll
+C:\Hakeema\ChauffeurApp\ChauffeurApp.Core\obj\Debug\net6.0\ChauffeurApp.Core.pdb
+C:\Hakeema\ChauffeurApp\ChauffeurApp.Core\obj\Debug\net6.0\ChauffeurApp.Core.genruntimeconfig.cache
+C:\Hakeema\ChauffeurApp\ChauffeurApp.Core\obj\Debug\net6.0\ref\ChauffeurApp.Core.dll
+C:\Users\NM\Desktop\New folder (5)\chauffeurApp-main\ChauffeurApp.Core\bin\Debug\net6.0\ChauffeurApp.Core.deps.json
+C:\Users\NM\Desktop\New folder (5)\chauffeurApp-main\ChauffeurApp.Core\bin\Debug\net6.0\ChauffeurApp.Core.runtimeconfig.json
+C:\Users\NM\Desktop\New folder (5)\chauffeurApp-main\ChauffeurApp.Core\bin\Debug\net6.0\ChauffeurApp.Core.dll
+C:\Users\NM\Desktop\New folder (5)\chauffeurApp-main\ChauffeurApp.Core\bin\Debug\net6.0\ChauffeurApp.Core.pdb
+C:\Users\NM\Desktop\New folder (5)\chauffeurApp-main\ChauffeurApp.Core\obj\Debug\net6.0\ChauffeurApp.Core.csproj.AssemblyReference.cache
+C:\Users\NM\Desktop\New folder (5)\chauffeurApp-main\ChauffeurApp.Core\obj\Debug\net6.0\ChauffeurApp.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NM\Desktop\New folder (5)\chauffeurApp-main\ChauffeurApp.Core\obj\Debug\net6.0\ChauffeurApp.Core.AssemblyInfoInputs.cache
+C:\Users\NM\Desktop\New folder (5)\chauffeurApp-main\ChauffeurApp.Core\obj\Debug\net6.0\ChauffeurApp.Core.AssemblyInfo.cs
+C:\Users\NM\Desktop\New folder (5)\chauffeurApp-main\ChauffeurApp.Core\obj\Debug\net6.0\ChauffeurApp.Core.csproj.CoreCompileInputs.cache
+C:\Users\NM\Desktop\New folder (5)\chauffeurApp-main\ChauffeurApp.Core\obj\Debug\net6.0\ChauffeurApp.Core.dll
+C:\Users\NM\Desktop\New folder (5)\chauffeurApp-main\ChauffeurApp.Core\obj\Debug\net6.0\refint\ChauffeurApp.Core.dll
+C:\Users\NM\Desktop\New folder (5)\chauffeurApp-main\ChauffeurApp.Core\obj\Debug\net6.0\ChauffeurApp.Core.pdb
+C:\Users\NM\Desktop\New folder (5)\chauffeurApp-main\ChauffeurApp.Core\obj\Debug\net6.0\ChauffeurApp.Core.genruntimeconfig.cache
+C:\Users\NM\Desktop\New folder (5)\chauffeurApp-main\ChauffeurApp.Core\obj\Debug\net6.0\ref\ChauffeurApp.Core.dll

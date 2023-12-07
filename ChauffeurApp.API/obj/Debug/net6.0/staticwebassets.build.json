@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "uwXLaX63pmc70Me6P6wI8TjQYt1Cn996oJ0ZEncVBz0=",
+  "Source": "ChauffeurApp.API",
+  "BasePath": "_content/ChauffeurApp.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
